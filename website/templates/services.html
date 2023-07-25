@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+    <body class="page">
+    
+        {% include 'nav.html'%}
+
+        <!-- Service Start -->
+        <div class="service mt-125">
+            <div class="container">
+                <div class="section-header">
+                    <p>Consulting Services</p>
+                    <h2>Our Best Consulting Services</h2>
+                </div>
+                <div class="row">
+                    <!-- start -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="service-item">
+                            <img src="{% static 'img/icon-1.png'%}" alt="Icon">
+                            <h2>Call Center Registration ( for renewal & New registration )</h2>
+                            <p>
+                                <ol style="text-align: justify;">
+                                    <li>Compnay IP whitelisting Process</li>
+                                    <li>Site visit Process</li>
+                                    <li>Call center cetification Process</li>
+
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- start -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="service-item">
+                            <img src="{% static 'img/icon-1.png'%}" alt="Icon">
+                            <h2>IT company registration/software company( for renewal & New registration )</h2>
+                            <p>
+                                <ol style="text-align: justify;">
+                                    <li>Complete PSEB registration</li>
+                                    <li>FBR, NTN process with procedure</li>
+                                    <li>SECP registration process with complete procedure</li>
+
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- start -->
+                    <div class="col-lg-12 col-md-12">
+                        <div class="service-item">
+                            <img src="{% static 'img/icon-1.png'%}" alt="Icon">
+                            <h2>Freelancer's ( for renewal & New registration )</h2>
+                            <p>
+                                <ol style="text-align: justify;">
+                                    <li>PSEB complete Freelancer registration</li>
+                                    <li>FBR, NTN process with complete procedure</li>
+
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        
+    </body>
+{% endblock %}

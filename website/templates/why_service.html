@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+    <body class="page">
+            
+            {% include 'nav.html'%} 
+        
+
+        <!-- About Start -->
+        <div class="about mt-125">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="about-img">
+                            <div class="about-img-1">
+                                <img src="{% static 'img/about-2.jpg'%}" alt="Image">
+                            </div>
+                            <div class="about-img-2">
+                                <img src="{% static 'img/about-1.jpg'%}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-header">
+                            <h2>why thish service required</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                <span style="font-weight: bolder ; color: black;">For call centers,</span> registration is crucial as it allows them to operate legally and maintain credibility with clients. The process involves IP whitelisting, which ensures secure and authorized access to company systems. Additionally, site visit procedures help verify that the call center meets necessary standards and requirements. Moreover, call center certification further boosts the center's reputation, making it an attractive choice for potential clients. These registration and renewal services collectively enable call centers to function efficiently and gain a competitive edge in the industry.
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder; color: black;">For IT and software companies,</span> proper registration is vital to establish their legitimacy and access various benefits. PSEB (Pakistan Software Export Board) registration is essential for software companies as it provides them with recognition and opportunities for growth in the international market. FBR (Federal Board of Revenue) and NTN (National Tax Number) processes are necessary for tax compliance, allowing companies to operate without legal complications. Furthermore, SECP (Securities and Exchange Commission of Pakistan) registration ensures that the company operates within the legal framework. By availing these services, IT and software companies can establish themselves as credible and trustworthy entities, attracting clients and investors.
+                            </p>
+                            <p>
+                                <span style="font-weight: bolder; color: black;">For freelancers,</span>  registration is equally important to establish their professional identity and avail of various benefits. PSEB registration provides freelancers with recognition and access to resources that can help them grow their businesses. Moreover, FBR and NTN processes ensure tax compliance, preventing potential legal issues. By going through the complete freelancer registration process, freelancers can enhance their reputation, gain trust from clients, and compete effectively in the market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        
+    </body>
+    {% endblock %}
